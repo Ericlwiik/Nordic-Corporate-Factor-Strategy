@@ -1,0 +1,19 @@
+name: ncfs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - openpyxl
+  - pip
+  - pip:
+      - cvxpy
+      - osqp
